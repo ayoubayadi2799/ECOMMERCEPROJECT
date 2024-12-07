@@ -1,0 +1,146 @@
+/*.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: transparent;
+  color: #000000;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 150px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 999;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-sign-in {
+  background-color: #e50914;
+  color: #fff;
+  position: absolute;
+  top: 40px;
+  left: 1281px;
+  z-index: 999;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 66px;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 26px;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: #e50914;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #333;
+  color: #fff;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: transparent;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-links li {
+  margin-right: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.language-selector {
+  margin-top: 20px;
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  left: 1150px;
+  z-index: 999;
+}
+
+.categories {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.category-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  overflow-x: auto; /* Permettre le défilement horizontal si nécessaire 
+}
+
+.category {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.category img {
+  max-width: 150px; /* Ajuster la largeur maximale des images 
+  max-height: 150px;
+  border-radius: 5px;
+}
+
+.category h3 {
+  margin-top: 10px;
+}
